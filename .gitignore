@@ -1,3 +1,8 @@
+# Statements
+statements.xlsx
+*.pdf
+
+
 # Logs
 logs
 *.log
