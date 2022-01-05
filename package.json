@@ -1,0 +1,22 @@
+{
+  "name": "parse-ocbc-statements",
+  "version": "1.0.0",
+  "description": "Send in frank/consolidated statement and the script parses it",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "francisyzy",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "excel4node": "^1.7.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/pdf-parse": "^1.1.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0",
+    "ts-node": "^10.4.0"
+  }
+}
