@@ -110,6 +110,12 @@ async function main() {
           const valueDate = convertUTCDateToLocalDate(
             new Date(line.substring(line.length - 6) + ' 2021'),
           );
+          if (isNaN(valueDate.getTime())) {
+            console.log(line);
+            console.log(line.substring(line.length - 6));
+            console.log(valueDate);
+            continue;
+          }
           let description = '';
           const remaining = line.substring(6, line.length - 6);
           let deposit = 0;
